@@ -64,14 +64,15 @@ namespace ModulPm
                     {
                         Console.WriteLine("Пожалуйста, введите значение от 1 до 4");
                     }
-                    Console.WriteLine($"Результат: {result}");
+                    Console.WriteLine($"Результат: {result} \nНажмите любую кнопку для перезапуска программы");
                     Debug.WriteLine("Пользователь получил результат");
                     sw.WriteLine("Пользователь получил результат");
                     sw.Close();
                 }
                 catch
                 {
-                    Console.WriteLine("Пожалуйста, вводите только цифры, нажмите кнопку для продолжения работы");
+                    Console.WriteLine("Пожалуйста, вводите только цифры, нажмите любую кнопку для завершения программы");
+                    
                 }
                 Console.ReadKey();
             }

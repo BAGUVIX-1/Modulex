@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModulPm", "ModulPm\ModulPm.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitMS", "UnitMS\UnitMS.csproj", "{C4EC220D-615E-4B45-AA79-C6175C5DE922}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UML", "UML", "{C2C3810A-1078-465F-B916-5C618CD7B483}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Downloads\UML.pdf = ..\..\..\Downloads\UML.pdf
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
