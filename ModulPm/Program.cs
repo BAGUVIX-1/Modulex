@@ -7,7 +7,9 @@ namespace ModulPm
     public class Program
     {
         /// <summary>
-        /// Выполнение основных функций калькулятора 
+        /// В данном проекте был разработан калькулятор
+        /// К нему создан отдельный класс и Unit-test
+        /// 
         /// </summary>
         /// <param name="args"></param>
         public static void Main(string[] args)

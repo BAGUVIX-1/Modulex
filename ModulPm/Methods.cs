@@ -4,6 +4,7 @@ namespace ModulPm
 {
     /// <summary>
     /// Здесь объявлены все методы
+    /// Их вызов происходит в Program
     /// </summary>
     public class Methods
     {
