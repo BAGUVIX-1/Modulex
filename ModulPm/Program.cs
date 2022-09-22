@@ -30,8 +30,8 @@ namespace ModulPm
 
                     choice = Convert.ToChar(Console.ReadLine());
                     Debug.WriteLine("Пользователь выбрал действие");
-                    sw.WriteLine("Пользователь выбрал действие");       
-                    
+                    sw.WriteLine("Пользователь выбрал действие");
+
                     Console.WriteLine("Введите первое число:");
                     a = Convert.ToDouble(Console.ReadLine()); //Пользователь вводит первое число
                     Debug.WriteLine("Пользователь ввел первое число");

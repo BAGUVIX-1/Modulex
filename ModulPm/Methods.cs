@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ModulPm
+﻿namespace ModulPm
 {
     /// <summary>
     /// Здесь объявлены все методы
