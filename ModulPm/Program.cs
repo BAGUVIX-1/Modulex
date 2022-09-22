@@ -16,12 +16,15 @@ namespace ModulPm
         {
             while (true)
             {
+
+
                 Console.WriteLine("Какое действие выберите? \n1. Сложение\n2. Вычитание\n3. Умножение\n4. Деление");
                 try //Добавление конструкции TryCatch для защиты от ввода букв
                 {
                     StreamWriter sw = new StreamWriter("debuginfo.txt");//Запись Debug-информации в файл "debuginfo.txt"
                     sw.WriteLine("У пользователя появилось приветственное сообщение");
                     Debug.WriteLine("Пользователь получил сообщение о выборе действия");
+
 
                     char choice = '0'; //Объявление переменной сhoice - для выбора действия пользователем
                     double a = 0; //Объявление переменной a
