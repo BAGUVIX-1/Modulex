@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace calcul
+namespace ModulPm
 {
     /// <summary>
     /// Здесь объявлены все методы
